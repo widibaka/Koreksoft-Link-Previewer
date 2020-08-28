@@ -119,7 +119,6 @@
 
 
 
-  KS_LP_set_reg_code("d2lkaWNhaHlvQHlhaG9vLmNvbUBzYXBhcmF0ZUAzNTc4Njk=");
 
   /*
   * Live preview the the link in the middle of typing
