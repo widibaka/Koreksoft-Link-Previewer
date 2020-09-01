@@ -7,7 +7,7 @@
     <title>Koreksoft Link Previewer</title>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="plugins/summernote/summernote.css">
+    <link rel="stylesheet" type="text/css" href="plugins/summernote/summernote-bs4.css">
     <style>
     .slidecontainer {
       text-align: center;
@@ -62,7 +62,7 @@
             </div>
             <div class="card-body" >
               <p class="">Try to type a link.</p>
-              <textarea class="form-control col-12" koreksoft_lp="second" rows="4" id="textarea1"><p>Kyou nan no hi ka wakaru?</p><p><a href="http://google.com" target="_blank">http://google.com</a>&nbsp;</p></textarea>
+              <textarea class="form-control col-12" koreksoft_lp="second" rows="4" id="textarea1"><p>Kyou nan no hi ka wakaru?</p><p><a href="http://google.com" target="_blank">http://kompas.com</a>&nbsp;</p></textarea>
               <button type="button" class="btn btn-sm btn-primary mt-2" id="second_theme">Switch Theme</button>
 
               
@@ -112,13 +112,14 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <!-- Inilah plugin saya .widibaka -->
 <script type="text/javascript" src="plugins/koreksoft-link-previewer/js/main.js"></script>
-<script type="text/javascript" src="plugins/summernote/summernote.js"></script>
+<script type="text/javascript" src="plugins/summernote/summernote-bs4.js"></script>
 
 <!-- Cara penggunaan ada di bawah ini -->
 <script type="text/javascript">
 
 
 
+  KS_LP_set_reg_code("d2lkaV9kd2lAZmlrb20udWRiLmFjLmlkQHNhcGFyYXRlQDQ5MjMzOQ==");
 
   /*
   * Live preview the the link in the middle of typing
